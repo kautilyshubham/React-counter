@@ -1,22 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
+.counter{
+  padding: 15px;
+  border: 1px solid #ddd;
+  color: #000;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.buttons-group{
+  display: block;
+  width: 100%;
+  text-align: center;
 }
-
-.App-link {
-  color: #09d3ac;
+.buttons-group button{
+  display: inline-block;
+  padding: 10px 25px;
+  background: coral;
+  color: #fff;
+  margin: 5px;
+  border: none;
+  outline: none;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.buttons-group button:hover{
+  opacity: 1;
 }
